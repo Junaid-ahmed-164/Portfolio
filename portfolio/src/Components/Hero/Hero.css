@@ -1,0 +1,8 @@
+.gradient-text {
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#home {
+  scroll-margin-top: 100px; /* match your navbar height */
+}

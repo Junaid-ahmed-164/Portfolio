@@ -1,0 +1,9 @@
+.gradient-text {
+  background: linear-gradient(45deg, #007bff, #6610f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#about {
+  scroll-margin-top: 80px; /* to avoid sticky navbar overlapping */
+}

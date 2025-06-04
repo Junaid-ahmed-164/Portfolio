@@ -1,0 +1,95 @@
+.services-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.section-title {
+  font-size: 2.0rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  background: linear-gradient(45deg, #007bff, #6610f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  width: 300px;
+  height: 100%;
+  min-height: 420px;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.service-card:hover {
+  border: 2px solid #c9a2c9;
+  background-image: linear-gradient(45deg, #a38197, #bd9880);
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+.card-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.service-icon {
+  font-size: 40px;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.quote-btn {
+  margin-top: auto;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.quote-form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quote-form input,
+.quote-form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.submit-quote {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}

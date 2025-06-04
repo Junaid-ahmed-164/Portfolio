@@ -1,0 +1,41 @@
+/* index.css: global styles */
+html {
+  scroll-behavior: smooth;
+}
+
+#Home,
+#About,
+#Services,
+#Latestwork,
+#Contact {
+  scroll-margin-top: 120px; /* Offset for sticky navbar */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  font-family: 'Outfit', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
